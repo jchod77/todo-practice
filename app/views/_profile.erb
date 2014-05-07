@@ -1,0 +1,9 @@
+  <h1>Welcome to Task-it!</h1>
+
+
+  <ul>
+  <% @user.tasks.each do |task| %>
+  	<li><a href='#'><%= task.title %></a></li>
+
+  <% end %>
+  </ul>
